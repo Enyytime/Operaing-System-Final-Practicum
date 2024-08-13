@@ -1,0 +1,87 @@
+virt_timer = {
+  timer = {
+    0 = {
+      inUse = true
+      period = 2147483647
+      timeToFire = 2147483647
+      active = true
+      continuous = true
+      realtime = false
+    }
+    1 = {
+      inUse = true
+      period = 2147483647
+      timeToFire = 2147483647
+      active = true
+      continuous = true
+      realtime = true
+    }
+    2 = {
+      inUse = true
+      period = 1000000
+      timeToFire = 368000000
+      active = true
+      continuous = true
+      realtime = false
+    }
+    3 = {
+      inUse = true
+      period = 3598
+      timeToFire = 367711686
+      active = true
+      continuous = false
+      realtime = false
+    }
+    4 = {
+      inUse = true
+      period = 100000
+      timeToFire = 23000000
+      active = true
+      continuous = true
+      realtime = true
+    }
+    5 = {
+      inUse = true
+      period = 13155
+      timeToFire = 367716230
+      active = true
+      continuous = false
+      realtime = false
+    }
+    6 = {
+      inUse = true
+      period = 100000
+      timeToFire = 23000000
+      active = true
+      continuous = true
+      realtime = true
+    }
+  }
+  s = {
+    0 = {
+      current_timers_time = 367708088
+      timers_next_event_time = 3598
+      last_sequential_time = 0
+      virtual_next_event_time = 3598
+      current_virtual_time = 367708088
+    }
+    1 = {
+      current_timers_time = 22900000
+      timers_next_event_time = 100000
+      last_sequential_time = 0
+      virtual_next_event_time = 100000
+      current_virtual_time = 22900000
+    }
+  }
+  last_real_time = 383192937000
+  total_real_usec = 22906000
+  last_realtime_delta = 16000
+  last_usec = 367413874
+  usec_per_second = 18006555
+  stored_delta = 0
+  last_system_usec = 367413874
+  em_last_realtime = 367413874
+  total_ticks = 22900000
+  last_realtime_ticks = 22890000
+  ticks_per_second = 1000000
+}
